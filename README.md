@@ -1,7 +1,7 @@
-# gaymer
+# Gaymer
 A Discord music bot built on Discord.js
 
-## Table of contents
+## Table of Contents
 * [General info](#general-info)
 * [Commands](#commands)
 * [Technologies](#technologies)
@@ -9,7 +9,7 @@ A Discord music bot built on Discord.js
 * [Setup](#setup)
 * [TO-DO](#to-do)
 
-## General info
+## General Info
 I wanted to make a discord bot to play music using the youtube api so here we are. I used Discord.js for the project, and launched it on a free Heroku dyno. The bot has a queue system in place and allows skipping, pausing, resuming, etc. Urls are not needed, but can be used, using the play command with a search query ([YOUR_PREFIX]play despacito) will search youtube for despacito and play the best match automatically. Any play command with a query after that will add it to the queue. 
 
 ## Commands
