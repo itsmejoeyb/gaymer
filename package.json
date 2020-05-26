@@ -1,0 +1,21 @@
+{
+  "name": "gaymer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Joey Breithaupt",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "opusscript": "0.0.7",
+    "request": "^2.88.2",
+    "ytdl-core": "^2.1.4",
+    "ytdl-core-discord": "^1.2.0"
+  }
+}
