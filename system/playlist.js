@@ -36,7 +36,7 @@ module.exports = {
                     .setThumbnail(`${song.thumbnailUrl}`)
                     .addField('Played by:', `${song.user}`)
                     .setTimestamp()
-                    .setFooter('Joey is a fucking beast for this command!')
+                    .setFooter('Made with 💜 by Joey!')
                 queue.textChannel.send(youtubeEmbed)
             }
     }

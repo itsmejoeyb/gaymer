@@ -57,7 +57,7 @@ module.exports = {
                         .setAuthor('Queued')
                         .setDescription(`Queued by: ${message.author}`)
                         .setTimestamp()
-                        .setFooter('Joey is a fucking beast for this command!')
+                        .setFooter('Made with 💜 by Joey!')
                     return queue.textChannel.send(queueEmbed)
                         .catch(console.error)
                 } else {
@@ -80,7 +80,6 @@ module.exports = {
                 message.reply('something went wrong... tell Joey to look into it.')
             })
         } else {
-            // if (!message.guild.me.voice.channel) return message.channel.send('I\'m not in a channel little hot boy!')
             if (!queue) return message.channel.send("There's no music... Why don't you get in the pond if you wanna act like a silly goose.")
             if (queue.playing) return message.channel.send("The music is already playing... Why don't you get in the pond if you wanna act like a silly goose.")
 
