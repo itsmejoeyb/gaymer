@@ -24,10 +24,11 @@ I wanted to make a discord bot to play music using the youtube api so here we ar
 ## Technologies
 Project is created with:
 * Discord.js: 12.2.0
+* Axios: 0.19.2
 * ytdl-core: 2.1.4
 * dotenv: 8.2.0
 
-Those are the only three necessary for the bot to function. There are others in package.json but they were used for other commands that I have removed for GitHub. I'll get around to modifying dependencies some day...
+Those are the only four necessary for the bot to function. There are others in package.json but they were used for other commands that I have removed for GitHub. I'll get around to modifying dependencies some day...
 
 ## Requirements
 * YouTube API V3 Key
