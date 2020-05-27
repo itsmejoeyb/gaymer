@@ -1,5 +1,5 @@
 # Gaymer
-A Discord music bot built on Discord.js
+A sassy, gay Discord music bot built on Discord.js
 
 ## Table of Contents
 * [General info](#general-info)
